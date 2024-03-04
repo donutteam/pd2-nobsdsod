@@ -26,6 +26,10 @@
 		{   
 			"hook_id" : "lib/managers/localizationmanager",
 			"script_path" : "hooks/localizationmanager.lua"
-    	}
+    	},
+		{
+			"hook_id" : "lib/network/handlers/unitnetworkhandler",
+			"script_path" : "hooks/announcement.lua"
+		}
 	]
 }
